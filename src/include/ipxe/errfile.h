@@ -83,6 +83,7 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
 #define ERRFILE_efi_path	       ( ERRFILE_CORE | 0x002b0000 )
 #define ERRFILE_efi_mp		       ( ERRFILE_CORE | 0x002c0000 )
 #define ERRFILE_efi_service	       ( ERRFILE_CORE | 0x002d0000 )
+#define ERRFILE_null_smbios	       ( ERRFILE_CORE | 0x002e0000 )
 
 #define ERRFILE_eisa		     ( ERRFILE_DRIVER | 0x00000000 )
 #define ERRFILE_isa		     ( ERRFILE_DRIVER | 0x00010000 )
@@ -224,6 +225,10 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
 #define ERRFILE_ecam		     ( ERRFILE_DRIVER | 0x00d30000 )
 #define ERRFILE_pcibridge	     ( ERRFILE_DRIVER | 0x00d40000 )
 #define ERRFILE_mnpnet		     ( ERRFILE_DRIVER | 0x00d50000 )
+#define ERRFILE_gve		     ( ERRFILE_DRIVER | 0x00d60000 )
+#define ERRFILE_aqc1xx		     ( ERRFILE_DRIVER | 0x00d70000 )
+#define ERRFILE_atl_hw		     ( ERRFILE_DRIVER | 0x00d80000 )
+#define ERRFILE_atl2_hw		     ( ERRFILE_DRIVER | 0x00d90000 )
 
 #define ERRFILE_aoe			( ERRFILE_NET | 0x00000000 )
 #define ERRFILE_arp			( ERRFILE_NET | 0x00010000 )
@@ -419,6 +424,8 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
 #define ERRFILE_editstring	      ( ERRFILE_OTHER | 0x00610000 )
 #define ERRFILE_widget_ui	      ( ERRFILE_OTHER | 0x00620000 )
 #define ERRFILE_form_ui		      ( ERRFILE_OTHER | 0x00630000 )
+#define ERRFILE_usb_cmd		      ( ERRFILE_OTHER | 0x00640000 )
+#define ERRFILE_usb_settings	      ( ERRFILE_OTHER | 0x00650000 )
 
 /** @} */
 
